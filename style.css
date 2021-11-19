@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: cornflowerblue;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:lightcoral;
+    -webkit-text-stroke: 0.5px #FFF;
+     text-stroke: 0.5px #FFF;
+     font-size: 50px;
+}
+
+table {
+    padding: 50px;
+    text-align: center;
+  }
+
+td{
+    cursor: pointer;
+    color:white;
+    width: 100px;
+    height: 100px;
+    background-color: grey;
+    font-size: 80px;
+}
